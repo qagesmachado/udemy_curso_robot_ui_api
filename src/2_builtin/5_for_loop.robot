@@ -17,10 +17,8 @@ Teste 2 - Exit For if
 
     FOR  ${i}  IN RANGE  60
         Log To Console    ${i}
-        
-        ${x}    Evaluate    ${i}+${a}
 
-        Exit For Loop If    ${x}==6
+        Exit For Loop If    ${i}==6
 
         Sleep    1        
     END

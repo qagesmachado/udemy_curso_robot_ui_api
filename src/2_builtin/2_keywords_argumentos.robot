@@ -3,14 +3,8 @@
 *** Variables ***
 # robot -d ./results -L trace  .\src\2_builtin\2_2_variaveis_argumentos.robot
 
-
-# Local -> Pode ser usada apenas dentro do contexto local que foi declarado
-# Teste -> Declarada no contexto do teste
-# Global -> Declarada globalmente pra ser usado em qualquer teste
-
 *** Test Cases ***
-
-Teste 1
+Teste 1 - Argumentos e Retorno de Keyword
     ${x}    ${y}    ${z}  keyword-1
 
     keyword-2    ${x}  ${y}  ${z}

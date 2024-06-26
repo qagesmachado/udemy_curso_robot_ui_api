@@ -6,7 +6,7 @@ Library  JSONLibrary
 
 *** Test Cases ***
 Teste
-    ${file}    Load Json From File    C:/repositories/robot_basic_udemy/src/5_json_library/teste.json
+    ${file}    Load Json From File    C:/repositories/robot_basic_udemy/src/5_json_library/teste_2.json
     Log To Console    ${file}
     ${tipo}    Evaluate    type($file)
     

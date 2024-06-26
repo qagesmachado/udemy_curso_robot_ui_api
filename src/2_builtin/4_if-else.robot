@@ -5,8 +5,6 @@
 
 ${A}     234354346
 *** Test Cases ***
-
-
 Teste 1 - IF
     
     IF  ${A} == 1
