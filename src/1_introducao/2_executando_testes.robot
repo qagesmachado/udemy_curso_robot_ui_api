@@ -32,8 +32,8 @@
 
 # -v -> Atribui valor a variaveis
     # robot -d ./results -v X:1 -v Y:3 .\src\1_general_section\executando_testes.robot
-${X}  
-${Y}  
+${X}  1
+${Y}  3
 *** Test Cases ***
 
 Teste 1
