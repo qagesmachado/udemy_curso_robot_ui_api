@@ -25,5 +25,14 @@ Selenium
 Requests
 - https://marketsquare.github.io/robotframework-requests/doc/RequestsLibrary.html#
 
-## Guia de aulas
-Guia de aulas se encontra  na pasta [0_guia_aulas](./src/0_guia_aulas)
+Operating System
+- https://robotframework.org/robotframework/latest/libraries/OperatingSystem.html#library-documentation-top 
+
+String
+- https://robotframework.org/robotframework/latest/libraries/String.html 
+
+JsonLibrary
+- https://robotframework-thailand.github.io/robotframework-jsonlibrary/JSONLibrary.html#library-documentation-top 
+
+DateTime
+- https://robotframework.org/robotframework/latest/libraries/DateTime.html
