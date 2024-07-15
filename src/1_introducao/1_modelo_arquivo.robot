@@ -8,11 +8,21 @@
 # Test setup -> Antes de cada teste começar
 # Test Teardown -> Depois de cada teste terminar
 
+Suite Setup       Pass Execution    message
+Suite Teardown    Pass Execution    message
+Test Setup        Pass Execution    message
+Test Teardown     Pass Execution    message
+
 *** Variables ***
 
 # Utilizado para escrever variáveis estáticas, xpath, variáveis globais
 
 *** Test Cases ***
+CT 1 - Exemplo
+    [Documentation]
+    [Tags]
+
+    Pass Execution    message
 
 #  Escritas dos casos de teste
 
