@@ -1,4 +1,4 @@
-# Curso Robot Framework Básico Web e API
+# Curso Robot Framework UI e API
 
 [![Badge ServeRest](https://img.shields.io/badge/API-ServeRest-green)](https://github.com/ServeRest/ServeRest/)
 
@@ -8,8 +8,10 @@
 - Adicionar extensões e plugins conforme necessidade
     - Material Icon Theme
     - Robot Framework Language Server
-- Instalar o arquivo requirements.txt
-    - pip install -r requirements.txt
+- Instalar o arquivo requirements.txt (esse arquivo deve existir na sua máquina)
+    - Para conseguir executar o próximo comando você deve ter feito o clone do repositório ou copiar o arquivo requirements.txt para sua máquina
+    - Esteja na mesma pasta na qual o arquivo foi salvo
+    - Executar: pip install -r requirements.txt
     - Observe que as versões de cada biblioteca foram fixadas nesse arquivo, caso precise fique livre para mudar as versões.
 
 ## Chrome Driver
